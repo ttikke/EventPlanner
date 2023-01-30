@@ -20,7 +20,7 @@ public class EventControllerTests
     public EventControllerTests(ITestOutputHelper testOutputHelper)
     {
         var dbOptions = new DbContextOptionsBuilder<NullamDbContext>()
-            .UseSqlite("Data source=C:\\Users\\Taavi\\RiderProjects\\Nullam\\Nullam\\Nullam\\Nullam.db").Options;
+            .UseSqlite("Data source=").Options;
         _dbContext = new NullamDbContext(dbOptions);
         _service = new EventRepository(_dbContext);
         _controller = new EventController(_service);

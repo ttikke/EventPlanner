@@ -1,0 +1,79 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formNames {
+    display: flex; 
+}
+
+.formNames input{
+    width: 276px;
+    max-height: 20px;
+    border-radius: 3px;
+    border-width: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 5px 11px;
+}
+
+.formNames select {
+    width: 301px;
+    max-height: 32px;
+    border-radius: 3px;
+    border-width: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 3px 7px 7px 7px;
+}
+
+.formNames div {
+    min-width: 154px;
+    line-height: 32px;
+}
+
+.form textarea {
+    resize: none;
+    width: 276px;
+    height: 53px;
+    border-radius: 3px;
+    padding: 4px 11px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formWithButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    background-color: white;
+}
+
+.formWithButtons button {
+    border: none;
+    border-radius: 3px;
+    min-width: 70px;
+    height: 28px;
+    width: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.addButton {
+    background-color: #005AA1;
+    color: white;
+}
+
+.backButton {
+    background-color: #E1E1E1;
+}
+
+.error {
+    color: #aa4a4a;
+}

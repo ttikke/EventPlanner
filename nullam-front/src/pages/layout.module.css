@@ -1,0 +1,12 @@
+.layout {
+    display: flex;
+    justify-content: center;
+}
+
+
+.innerLayout{
+    display: flex;
+    flex-direction: column;
+    max-width: 1180px;
+    width: 100%;
+}

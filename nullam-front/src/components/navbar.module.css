@@ -1,0 +1,52 @@
+.navbar {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 82px;
+    background-color: white;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.navbarSymbol {
+    padding-right: 35px;
+}
+
+.navbarLogo {
+    padding-left: 33px;
+}
+
+.logoAndButtons {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 147px;
+    align-items: center;
+}
+
+.logoAndButtons button {
+    border: none;
+    height: 82px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #424242;
+    background-color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.frontPageButton {
+    width: 90px;
+
+}
+
+.activeButton {
+    background-color: #005AA1 !important;
+    color: white !important;
+}
+
+.addEventButton{
+    width: 145px;
+}

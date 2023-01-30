@@ -1,0 +1,16 @@
+.introduction {
+    display: flex;
+    max-width: 100%;
+    background-color: #005AA1;
+    color: rgb(255, 255, 255);
+
+}
+
+.introduction div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
